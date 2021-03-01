@@ -1,0 +1,8 @@
+# Templates
+default: -p html_report -p prd
+
+# Ambientes 
+prd: TARGET=prd
+
+# Reports 
+html_report: --format pretty -f html -o reports/features_report.html

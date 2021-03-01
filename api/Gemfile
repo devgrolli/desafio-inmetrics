@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'pry'
+gem 'faker'
+gem 'rspec'
+gem 'bundler'
+gem 'httparty' 
+gem 'cucumber'  
+gem 'factory_bot'  
+gem 'documentos_br'

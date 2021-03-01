@@ -1,0 +1,39 @@
+logins:
+- :tag: login_default
+  :email: inmetrics_login@prova.com
+  :senha: Autom@tion123
+
+- :tag: login_erro
+  :email: inmetrics_login@prova.com
+  :senha: 123456
+
+cadastros:
+- :tag: cadastro
+  :email: inmetrics_login@prova.com
+  :senha: Autom@tion123  
+
+- :tag: cadastro_user_existente
+  :email: inmetrics_login@prova.com
+  :senha1: Autom@tion123  
+  :senha2: Autom@tion123  
+
+- :tag: cadastro_senha_diferente
+  :email: teste@imetrics.com
+  :senha1: 456123
+  :senha2: 123456  
+
+mensagens:
+- :tag: senhas_diferentes
+  :mensagem: Senhas não combinam 
+- :tag: usuario_existente
+  :mensagem: Usuário já cadastrado 
+- :tag: msg_login_erro
+  :mensagem: ERRO! Usuário ou Senha inválidos
+- :tag: funcionario_cadastrado
+  :mensagem: SUCESSO! Usuário cadastrado com sucesso
+- :tag: funcionario_editado
+  :mensagem: SUCESSO! Informações atualizadas com sucesso
+- :tag: funcionario_excluido
+  :mensagem: SUCESSO! Funcionário removido com sucesso
+
+  
